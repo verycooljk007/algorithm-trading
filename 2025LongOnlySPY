@@ -1,0 +1,76 @@
+To view spreadsheet:
+https://docs.google.com/spreadsheets/d/1Zj4aDAojQYMNomJTXVa5i1RAb_HvbobXo47jSmSQZc0/edit?usp=sharing
+
+Algorithm Timing Tracker for Smarter DCA
+
+Overview
+
+This spreadsheet serves as a public record comparing different methods of buying the SPY ETF (S&P 500 Index ETF) to optimize dollar-cost averaging (DCA) with an edge. By tracking execution times and performance, it helps determine whether timing dips can outperform a simple, consistent buying schedule.
+
+Strategies Compared:
+
+Dip Buying with SJ – Allocating varying portions of cash when market dips occur.
+
+Weekly Buying – Buying on the same day each week (e.g., every Friday), regardless of price.
+
+Monthly Buying – Buying at the end of each month, regardless of price.
+
+A Relative Dip Approach is also included, where larger dips relative to recent prices trigger more aggressive buying. This helps determine if strategic timing enhances returns compared to regular interval-based purchases.
+
+
+How to Use
+
+Key Sheets in the Spreadsheet:
+
+SPY Price History – Displays SPY ETF’s price trends, including open/high/low/close prices and trading volume.
+
+Timing vs. Weekly/Monthly Buys – Compares the average cost basis of each buying approach and their gains/losses.
+
+Emoji Dictionary (Steps Chart) – A visual guide explaining the different stages of market conditions and buying decisions.
+
+
+Reading the Data:
+
+Stock Price ($): Closing price of SPY on a given date.
+
+Weekly Buy Price ($): Cost basis if buying weekly.
+
+Monthly Buy Price ($): Cost basis if buying monthly.
+
+SJ Buy Price ($): Cost basis if using the dip-buying strategy.
+
+Summary Row: Shows average buy prices for each approach and the corresponding gains/losses in both dollar and percentage terms.
+
+
+Why This Matters for DCA
+
+Traditional DCA buys at fixed intervals without considering market conditions. This spreadsheet helps implement a smarter DCA approach by:
+
+Avoiding buying at highs and deploying cash during dips.
+
+Tracking algorithm efficiency to optimize decision-making.
+
+Testing different strategies to identify what works best over time.
+
+
+
+License
+
+This project is licensed under Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0). You may use and share it freely for non-commercial purposes with my approval.
+
+FAQ
+
+How is the price data sourced?
+
+Data is fetched from free sources like Google Finance and Yahoo Finance to ensure real-time updates.
+
+Can timing the market beat regular DCA?
+
+This spreadsheet helps evaluate if dip-buying provides an edge over simple weekly or monthly purchases.
+
+How do I start using it?
+
+Simply review the historical price data and compare strategies. Use this to refine your own buying approach!
+
+📊 Track, compare, and optimize your DCA strategy with data-driven insights! 🚀
+
