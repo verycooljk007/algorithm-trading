@@ -1,6 +1,8 @@
 RoboAdvisor
 Project Overview
 
+This is specifically to improve on the roboadvisor function to avoid highs and swing to highs ideally.
+
 This repository contains a spreadsheet I created to track algorithm execution times, specifically to analyze and optimize strategies for dollar-cost averaging (DCA) with an edge. By timing different algorithmic approaches, this project helps refine decision-making for better market entry points.
 How to Use It
 
