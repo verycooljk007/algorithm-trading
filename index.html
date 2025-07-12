@@ -3,18 +3,94 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SJ Method Free Dashboard</title>
+  <title>SJ Method – Free Dashboard</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header { background: #282c34; color: white; padding: 1rem; text-align: center; }
-    iframe { width: 100%; height: 90vh; border: none; }
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000000;
+      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+      background-color: #111111;
+      padding: 1rem;
+      text-align: center;
+      border-bottom: 2px solid #ff9900;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      color: #ff9900;
+    }
+
+    header p {
+      margin: 0.5rem 0 0 0;
+      font-size: 1rem;
+      color: #ffffff;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: 88vh;
+      border: none;
+    }
+
+    .button-container {
+      text-align: center;
+      margin: 1rem 0;
+    }
+
+    .cta-button {
+      background-color: #ff9900;
+      color: #000;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      font-weight: bold;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #ffaa33;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.85rem;
+      color: #cccccc;
+      border-top: 1px solid #222222;
+      background-color: #111111;
+    }
+
+    a {
+      color: #ff9900;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>SJ Method – Free Dashboard</h1>
-    <p>Live market timing vs DCA and SPY (Free Preview)</p>
+    <p>Live performance tracking vs SPY & DCA (public preview)</p>
   </header>
-  <iframe src="https://docs.google.com/spreadsheets/d/13irkk1NbbhAz2JOLjYjHQvQ1KcHsCOvYbBp7ZWJT49g/edit?usp=sharing"></iframe>
+
+  <div class="button-container">
+    <a href="https://cooljk007.substack.com/" target="_blank" class="cta-button">
+      🔒 Unlock Real-Time Alerts – Subscribe on Substack
+    </a>
+  </div>
+
+  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSgc2AUKa20PYUzLCT5H02h5b_rKmpGlp4H_jQNjkZPujBzcpj1nFiq6fMmtP4rrLOShSlGKnMSe8ql/pubhtml?widget=true&amp;headers=false"></iframe>
+
+  <footer>
+    &copy; 2025 Sorcerer Jeson Investment Review · Not financial advice. For educational purposes only.
+  </footer>
 </body>
 </html>
