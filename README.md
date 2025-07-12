@@ -1,5 +1,17 @@
-RoboAdvisor
-Project Overview
+# SJ Method – Free Dashboard
+
+This public dashboard compares SPY, DCA, and the SJ Method — a proprietary investing strategy designed to improve ETF and dividend stock entry timing.
+
+📈 [View Dashboard](https://verycooljk007.github.io/algorithm-trading/)
+
+🔒 For real-time buy signals and paid alerts, visit [Substack](https://cooljk007.substack.com)
+
+## Tech Used
+- Google Sheets (embedded)
+- GitHub Pages
+- Custom HTML/CSS
+
+> Not financial advice. For educational purposes only.
 
 This is specifically to improve on the roboadvisor function to avoid highs and swing to highs ideally.
 
@@ -17,4 +29,3 @@ DCA is a powerful investing approach, but timing matters. This spreadsheet helps
 License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0). You may use and share this data for non-commercial purposes only, only after my approval.
-
