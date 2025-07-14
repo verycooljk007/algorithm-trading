@@ -4,6 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>SJ Method – Free Dashboard</title>
+
+  <!-- ✅ SEO & Social Meta -->
+  <meta name="description" content="Compare SPY, DCA, and the SJ Method with live performance data. A free dashboard for ETF & dividend investors.">
+  <meta property="og:title" content="SJ Method – Free Dashboard">
+  <meta property="og:description" content="Compare DCA, SPY, and the SJ Method with live market-timing data.">
+  <meta property="og:image" content="https://cooljk007.substack.com/promo-image.png"> <!-- Replace if you have one -->
+  <meta property="og:url" content="https://jesankhan.github.io/free-dashboard/">
+  <meta name="theme-color" content="#000000">
+
+  <!-- ✅ Styles -->
   <style>
     body {
       margin: 0;
@@ -15,82 +25,135 @@
 
     header {
       background-color: #111111;
-      padding: 1rem;
+      padding: 1.5rem;
       text-align: center;
       border-bottom: 2px solid #ff9900;
     }
 
     header h1 {
       margin: 0;
-      font-size: 1.8rem;
+      font-size: 2rem;
       color: #ff9900;
     }
 
     header p {
-      margin: 0.5rem 0 0 0;
+      margin: 0.5rem 0 0;
       font-size: 1rem;
       color: #ffffff;
     }
 
-    iframe {
-      display: block;
-      width: 100%;
-      height: 88vh;
-      border: none;
-    }
-
-    .button-container {
-      text-align: center;
-      margin: 1rem 0;
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      color: #cccccc;
     }
 
     .cta-button {
+      display: inline-block;
       background-color: #ff9900;
-      color: #000;
+      color: #000000;
       padding: 12px 24px;
-      border: none;
       border-radius: 5px;
       font-size: 1rem;
       font-weight: bold;
       text-decoration: none;
-      cursor: pointer;
-      transition: background 0.3s;
+      margin-top: 1rem;
     }
 
     .cta-button:hover {
       background-color: #ffaa33;
     }
 
+    iframe {
+      display: block;
+      width: 100%;
+      height: 80vh;
+      border: none;
+      margin: 1rem 0;
+    }
+
     footer {
       text-align: center;
       padding: 1rem;
       font-size: 0.85rem;
-      color: #cccccc;
+      color: #999999;
       border-top: 1px solid #222222;
       background-color: #111111;
     }
 
     a {
       color: #ff9900;
+      text-decoration: none;
     }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Optional email form (commented out) */
+    /*
+    form {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    input[type="email"] {
+      padding: 10px;
+      width: 240px;
+      border: none;
+      border-radius: 4px;
+      margin-right: 8px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #ff9900;
+      color: #000;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+    */
   </style>
 </head>
 <body>
+
   <header>
     <h1>SJ Method – Free Dashboard</h1>
-    <p>Live performance tracking vs SPY & DCA (public preview)</p>
+    <p>Compare SPY, DCA, and SJ entry timing using real market data</p>
   </header>
 
-  <div class="button-container">
-    <a href="https://cooljk007.substack.com/" target="_blank" class="cta-button">
-      🔒 Unlock Real-Time Alerts – Subscribe on Substack
+  <section>
+    <h2>📊 Live Preview</h2>
+    <p>This dashboard is a public version of the SJ Method — a proprietary timing strategy built to help ETF and dividend investors reduce cost-per-share and avoid buying near market highs.</p>
+    <p>It tracks the live performance of:</p>
+    <ul>
+      <li>📉 SPY benchmark</li>
+      <li>📆 Dollar-Cost Averaging (DCA)</li>
+      <li>🔮 SJ Method timing strategy</li>
+    </ul>
+    <p>Want access to real-time buy alerts and deep timing analysis?</p>
+    <a href="https://cooljk007.substack.com" target="_blank" class="cta-button">
+      🔒 Subscribe to Paid Substack
     </a>
-  </div>
+  </section>
 
+  <!-- ✅ Replace this iframe with your published dashboard link -->
   <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRsGiVNA8j6uUbx8iO-qEKJN27NEQSmuZhEsWObH_jUglwo0HpydQ_WoJyjKLVOKk-N9hwnIZjENfIS/pubhtml"></iframe>
 
+  <!-- Optional email capture form from Substack -->
+  <!--
+  <form action="https://cooljk007.substack.com/subscribe" method="post" target="_blank">
+    <input type="email" name="email" placeholder="Enter your email to subscribe" required>
+    <button type="submit">Join Free Newsletter</button>
+  </form>
+  -->
+
   <footer>
-    &copy; 2025 Sorcerer Jeson Investment Review · Not financial advice. For educational purposes only.
+    &copy; 2025 · Sorcerer Jeson Investment Review  
+    <br>Not financial advice. For educational purposes only.
   </footer>
+
 </body>
 </html>
