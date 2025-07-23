@@ -1,27 +1,38 @@
-def compound_calculator_with_table(initial_investment, return_rate_percent, num_periods):
-    rate = return_rate_percent / 100
-    amount = initial_investment
+def compound_calculator_with_table():
+    while True:
+        try:
+            initial_investment = float(input("\nEnter your initial investment amount: $"))
+            return_rate_percent = float(input("Enter your return rate per period (in %): "))
+            num_periods = int(input("Enter the number of compounding periods: "))
+        except ValueError:
+            print("Invalid input. Please enter numeric values.\n")
+            continue
 
-    print(f"\nCompound Growth Table")
-    print(f"{'Period':<10}{'Start Amount':<20}{'Interest Earned':<20}{'End Amount':<20}")
-    print("-" * 70)
+        rate = return_rate_percent / 100
+        amount = initial_investment
 
-    for period in range(1, num_periods + 1):
-        start_amount = amount
-        interest = start_amount * rate
-        amount = start_amount + interest
-        print(f"{period:<10}{start_amount:,.2f}<{' ':<10}{interest:,.2f}<{' ':<10}{amount:,.2f}")
+        print(f"\nCompound Growth Table")
+        print(f"{'Period':<10}{'Start Amount':<20}{'Interest Earned':<20}{'End Amount':<20}")
+        print("-" * 70)
 
-    total_profit = amount - initial_investment
-    print(f"\nInitial Investment: ${initial_investment:,.2f}")
-    print(f"Return per Period: {return_rate_percent:.2f}%")
-    print(f"Total Periods: {num_periods}")
-    print(f"Final Amount: ${amount:,.2f}")
-    print(f"Total Profit: ${total_profit:,.2f}")
+        for period in range(1, num_periods + 1):
+            start_amount = amount
+            interest = start_amount * rate
+            amount = start_amount + interest
+            print(f"{period:<10}${start_amount:,.2f}{'':<8}${interest:,.2f}{'':<8}${amount:,.2f}")
 
-# Example usage:
-compound_calculator_with_table(
-    initial_investment=800,        # Enter initial investment
-    return_rate_percent=10,        # % return per period
-    num_periods=12                 # Number of compounding periods
-)
+        total_profit = amount - initial_investment
+        print(f"\nInitial Investment: ${initial_investment:,.2f}")
+        print(f"Return per Period: {return_rate_percent:.2f}%")
+        print(f"Total Periods: {num_periods}")
+        print(f"Final Amount: ${amount:,.2f}")
+        print(f"Total Profit: ${total_profit:,.2f}")
+
+        # Ask if user wants to run another calculation
+        again = input("\nWould you like to do another calculation? (y/n): ").strip().lower()
+        if again != 'y':
+            print("Goodbye! 👋")
+            break
+
+# Run the calculator
+compound_calculator_with_table()
